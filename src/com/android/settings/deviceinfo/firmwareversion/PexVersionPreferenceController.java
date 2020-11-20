@@ -135,6 +135,6 @@ public class PexVersionPreferenceController extends BasePreferenceController {
     @Override
     public void copy() {
         Sliceable.setCopyContent(mContext, getSummary(),
-                mContext.getText(R.string.org.pex.version));
+                mContext.getText(R.string.pex_version));
     }
 }
